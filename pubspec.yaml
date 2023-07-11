@@ -1,4 +1,4 @@
-name: filters
+name: glasses_filters
 description: A new Flutter project.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: '>=2.19.0 <3.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -30,13 +30,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  rwa_deep_ar: ^0.0.12
-  path:
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
+  cupertino_icons: ^1.0.5
+  deepar_flutter: ^0.0.5
+  lottie: ^2.3.2
+
 
 dev_dependencies:
   flutter_test:
@@ -61,8 +62,15 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+      - assets/glasses1.deepar
+      - assets/glasses2.deepar
+      - assets/glasses3.deepar
+      - assets/glasses4.deepar
+      - assets/glasses5.deepar
+      - assets/glasses6.deepar
+      - assets/glasses7.deepar
+      - assets/glasses8.deepar
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

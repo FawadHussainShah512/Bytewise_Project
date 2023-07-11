@@ -1,6 +1,6 @@
 {
-    "name": "filters",
-    "short_name": "filters",
+    "name": "glasses_filters",
+    "short_name": "glasses_filters",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
